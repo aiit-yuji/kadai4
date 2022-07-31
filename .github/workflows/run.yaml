@@ -5,4 +5,4 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: ./test_getgcf.sh
+      - run: ./kadai4/test_getgcf.sh
