@@ -1,8 +1,15 @@
 name: actions
-on: [push]
+on: 
+  push:
+    branches:
+        - master
+  workflow_dispathc:
+
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{secrets.GITHUB_TOKEN}}
       - run: ../../test_getgcf.sh
