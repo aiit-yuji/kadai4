@@ -7,6 +7,5 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-      steps:
-        - name: execute test script  
-          run: ../../test_getgcf.sh
+    steps:
+      - run: ../../test_getgcf.sh
