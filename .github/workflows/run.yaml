@@ -5,5 +5,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: ./test_getgcf.sh
+      - run: bash ./test_getgcf.sh
       - shell: bash
