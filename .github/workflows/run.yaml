@@ -3,7 +3,7 @@ on:
   push:
     branches:
         - master
-  workflow_dispathc:
+  workflow_dispatch:
 
 jobs:
   check-bats-version:
