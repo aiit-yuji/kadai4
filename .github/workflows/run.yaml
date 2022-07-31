@@ -6,4 +6,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       run: ./test_getgcf.sh
-      shell: bash
