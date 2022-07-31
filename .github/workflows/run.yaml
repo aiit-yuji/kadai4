@@ -1,11 +1,9 @@
 name: actions
-on: 
-  push:
-    branches:
-        - master
+on: [push]
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: ../../test_getgcf.sh
+      - run: ./test_getgcf.sh
+      - shell: bash
