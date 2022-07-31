@@ -3,12 +3,10 @@ on:
   push:
     branches:
         - master
-  workflow_dispatch:
 
 jobs:
-  check-bats-version:
     runs-on: ubuntu-latest
     steps:
       - name: execute test script  
-        run: echo "Hello World!"
+        run: ../../test_getgcf.sh
 
