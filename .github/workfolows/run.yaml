@@ -10,4 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: execute test script  
-        run: ../../test_getgcf.sh
+        run: echo "Hello World!"
+
