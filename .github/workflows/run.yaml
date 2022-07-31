@@ -5,5 +5,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      #- run: ./kadai4/test_getgcf.sh
-      - run: pwd
+      - run: ./test_getgcf.sh
+      # - run: pwd
