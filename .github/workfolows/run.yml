@@ -1,0 +1,7 @@
+name: actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - run ./test_getgcf.sh
